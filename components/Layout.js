@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
 
-import Header from './Header'
+import Header from "./Header";
 
 export default function Layout({ children, pageTitle, description, ...props }) {
   return (
@@ -12,14 +12,14 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <title>{pageTitle}</title>
       </Head>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap");
 
         html,
         body {
           margin: 0;
           padding: 0;
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
             sans-serif;
           color: #445566;
         }
@@ -34,7 +34,8 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         }
 
         a {
-          color: #00a395;
+          color: #2978b5;
+          line-height: 2.4;
         }
 
         .content {
@@ -55,9 +56,12 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           align-items: center;
         }
 
-        footer img {
-          padding: 0 5px;
-          height: 1rem;
+        footer a {
+          text-decoration: none;
+          color: #2978b5;
+        }
+        footer a:hover {
+          text-decoration: underline;
         }
       `}</style>
       <section className="layout">
@@ -65,8 +69,8 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Built with <img src="/netliheart.svg" alt="Netlify Heart" /> for you
+        <a href="https://ahanafasir.netlify.app/">Developed by Ahanaf Asir</a>
       </footer>
     </>
-  )
+  );
 }

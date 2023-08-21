@@ -1,14 +1,6 @@
-# Next + Netlify Markdown Blog Starter
+# Ahanaf writes
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8979c7b5-18bf-4837-9861-2d9a5844b19b/deploy-status)](https://app.netlify.com/sites/next-netlify-blog-starter/deploys)
-
-This is a lightweight Next.js (v12+) Markdown Blog, configured so you can one-click install a blog and deploy it to [Netlify](https://url.netlify.com/r1j6ybSYU)!
-
-Get started by clicking here (this will clone the repo and deploy the site):
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-blog-starter&utm_source=github&utm_medium=blogstarter-cs&utm_campaign=devex)
-
-Or, if you'd like to build it yourself, here's a [tutorial blog post](https://url.netlify.com/ByVW0bCF8) that should get you on the right track!
+This is a lightweight Next.js (v12+) Markdown Blog.
 
 ## The nitty gritty
 
@@ -26,16 +18,11 @@ If you'd like to write a new blog post, write it in Markdown in the `posts` dire
 
 ### Installation options
 
-**Option one:** One-click deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-blog-starter&utm_source=github&utm_medium=blogstarter-cs&utm_campaign=devex)
-
 **Option two:** Manual clone
 
-1. Clone this repo: `git clone https://github.com/cassidoo/next-netlify-blog-starter`
+1. Clone this repo: `git clone https://github.com/ahanafasir/portfolio-blog.git`
 2. Navigate to the directory and run `npm run dev`
-3. Make your changes
-4. Connect to [Netlify](https://url.netlify.com/r1j6ybSYU) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+3. Deploy to Netlify
 
 ### Styling
 
@@ -51,9 +38,6 @@ You may include an optional hero image in your posts. Put the images in `public/
 ---
 title: 'Post title'
 author: 'Post author'
-date: '2020-04-27'
-hero_image: ../static/example.jpg
+date: '2023-08-31'
 ---
 ```
-
-See `demo-post-1.md` for an example of this.
