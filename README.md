@@ -1,6 +1,8 @@
 # Ahanaf writes
 
-This is a lightweight Next.js (v12+) Markdown Blog.
+A place for my thoughts. Build with next.js & Netlify.
+
+visit: https://blog-ahanafasir.netlify.app/
 
 ## The nitty gritty
 
