@@ -69,7 +69,9 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        <a href="https://ahanafasir.netlify.app/">Developed by Ahanaf Asir</a>
+        <a target="_blank" href="https://ahanafasir.netlify.app/">
+          Developed by Ahanaf Asir
+        </a>
       </footer>
     </>
   );
