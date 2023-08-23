@@ -41,5 +41,6 @@ You may include an optional hero image in your posts. Put the images in `public/
 title: 'Post title'
 author: 'Post author'
 date: '2023-08-31'
+hero_image: '../static/example.jpg'
 ---
 ```

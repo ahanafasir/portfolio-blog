@@ -45,6 +45,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          line-height: 2.4;
         }
 
         footer {

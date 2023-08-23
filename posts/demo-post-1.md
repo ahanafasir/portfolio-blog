@@ -2,6 +2,7 @@
 title: "Tinkering with AOSP"
 author: "Ahanaf Asir"
 date: "2023-08-21"
+hero_image: ../static/hero-image-1.jpg
 ---
 
 # Title: From Fastboot to Flawless Code: A Programmer's Journey with AOSP Custom Builds
